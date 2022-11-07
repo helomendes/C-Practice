@@ -1,0 +1,3 @@
+3. Com base no programa do item 1, escreva um programa em C que:
+  a. No item “c”, receba do usuário cada valor a ser indexado no intervalo [0, n);
+  b. Imprima o vetor recebido em ordem.
