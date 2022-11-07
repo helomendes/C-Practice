@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+	int a, b, c, d, e, max;
+	printf("Valor de a: \n");
+	scanf("%d", &a);
+	max = a;
+	printf("Valor de b: \n");
+	scanf("%d", &b);
+	if (max < b)
+		max = b;
+	printf("Valor de c: \n");
+	scanf("%d", &c);
+	if (max < c)
+		max = c;
+	printf("Valor de d: \n");
+	scanf("%d", &d);
+	if (max < d)
+		max = d;
+	printf("Valor de e: \n");
+	scanf("%d", &e);
+	if (max < e)
+		max = e;
+	printf("\nMaior valor: %d\n", max);
+	return 0;
+}
