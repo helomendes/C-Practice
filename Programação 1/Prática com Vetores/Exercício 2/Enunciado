@@ -1,0 +1,6 @@
+2. Com base no programa do item 1, escreva um programa em C que:
+  a. No item “c” do item anterior, em vez de preencher cada posição do vetor com o
+  valor dos índices do intervalo, preencha o vetor em modo decrescente (ex.: se n
+  == 10, os índices do vetor vão de 0 até 9; a posição indexada por 0 deve
+  receber o valor 9, posição 1 recebe 8 e assim por diante até que o índice 9
+  receba valor 0)
