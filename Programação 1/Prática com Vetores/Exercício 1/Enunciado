@@ -1,0 +1,5 @@
+Escreva um programa em C que:
+  a. Receba um inteiro n do usuário;
+  b. Crie um vetor de tamanho n, desde que n seja igual ou menor do que 1024;
+  c. Preencha cada posição do vetor com o valor dos índices do intervalo;
+  d. LEMBRETE: o tamanho máximo do vetor deve ser ESTÁTICO!
