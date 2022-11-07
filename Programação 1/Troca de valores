@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void troca(int a, int b)
+{
+	int aux = a;
+	a = b;
+	b = aux;
+	printf("troca -> a = %d, b = %d\n", a, b);
+}
+int main ()
+{
+	int a = 0;
+	int b = 1;
+	troca (a, b);
+	printf("main -> a = %d, b = %d\n", a, b);
+	return 0;
+}
