@@ -1,0 +1,32 @@
+#include <stdio.h>
+#define LIN 2
+#define COL 2
+int main()
+{
+	int M[LIN][COL], i=0, j=0;
+	printf("Insira uma matriz de 9 elementos:\n");
+	while (i<=LIN)
+	{
+		j=0;
+		while(j <= COL)
+		{	
+			printf("[%d, %d]\t", i, j);
+			scanf("%d", &M[i][j]);
+			j++;
+		}
+		i++;
+	}
+	i=0;
+	j=0;
+	while (i<=LIN)
+	{
+		j=0;
+		while(j <= COL)
+		{
+			printf("%d\t", M[i][j]);
+			j++;
+		}
+		printf("\n");
+		i++;
+	}
+}
